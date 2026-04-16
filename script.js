@@ -1,14 +1,20 @@
-const h5Elements = document.querySelectorAll("h5");
+const colors = ["green", "blue", "red"];
+const elementH5 = document.querySelectorAll("h5");
 
+// Function to get a random color
 function getRandomColor() {
-  const colors = ["green", "blue", "red"];
-  const randomIndex = Math.floor(Math.random() * colors.length);
-  return colors[randomIndex];
+  const randomColor = Math.floor(Math.random() * colors.length);
+  return colors[randomColor];
 }
 
-h5Elements.forEach(function(h5) {
-  h5.addEventListener("click", function() {
-    const color = getRandomColor();
-    h5.style.color = color;
+// Function to apply a random color to an element
+function addRandomColor(element) {
+  element.style.color = getRandomColor();
+}
+
+// Add clic
+elementH5.forEach(h5 => {
+  h5.addEventListener("click", () => {
+    addRandomColor(h5);
   });
 });
