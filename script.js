@@ -1,4 +1,5 @@
-
+const colors = ["green", "blue", "red"];
+const elementH5 = document.querySelectorAll("h5");
 
 // Function to get a random color
 function getRandomColor() {
