@@ -53,13 +53,13 @@ project-root/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Equipo-2-CH66/ABC.git
 ```
 
 2. Navigate to the project folder:
 
 ```bash
-cd your-repo-name
+cd ABC
 ```
 
 3. Open the project:
