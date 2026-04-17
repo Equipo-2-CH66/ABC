@@ -4,6 +4,8 @@
 
 **ABC's Through Pictures** is a simple and visually engaging web project that displays the alphabet from A to Z, where each letter is represented by a word and an image.
 
+![ABC Preview](Pictures/image.png)
+
 This project was developed as a collaborative exercise to practice **HTML, CSS, and Bootstrap**, focusing on layout design, image handling, and team collaboration using Git and GitHub.
 
 ---
