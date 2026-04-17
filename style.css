@@ -5,6 +5,8 @@ html {
 
 body {
   background-color: gray;
+  margin: 50px;
+  padding-bottom: 50px;
 }
 
 h3 {
@@ -29,6 +31,7 @@ h3 {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  width: 500px;
+  height: 500%;
+  object-fit: cover;
 }
